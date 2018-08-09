@@ -1,0 +1,25 @@
+{
+  "name": "hapi-axios",
+  "version": "1.0.0",
+  "description": "a lightweight integration between hapi and axios",
+  "main": "src/axios.js",
+  "scripts": {
+    "test": "DEBUG=hapi-axios node src/server.test.js"
+  },
+  "keywords": [
+    "axios",
+    "hapi"
+  ],
+  "author": "Eduardo P. Rivero <jrperedo@gmail.com> (https://blog.eperedo.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "0.18.0",
+    "debug": "3.1.0",
+    "hapi": "17.5.3",
+    "tape": "4.9.1"
+  },
+  "peerDependencies": {
+    "axios": ">= 0.18.0",
+    "hapi": ">= 17.5.3"
+  }
+}
