@@ -1,10 +1,11 @@
 {
   "name": "hapi-axios",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "a fun and lightweight integration between hapi and axios",
   "main": "src/axios.js",
   "scripts": {
-    "test": "DEBUG=hapi-axios node src/server.test.js"
+    "test": "DEBUG=hapi-axios node src/server.test.js",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "axios",
@@ -16,7 +17,7 @@
     "axios": "0.18.0",
     "debug": "3.1.0",
     "hapi": "17.5.3",
-    "semantic-release": "15.9.6",
+    "semantic-release": "^15.9.6",
     "tape": "4.9.1"
   },
   "peerDependencies": {
@@ -26,7 +27,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eperedo/hapi-axios.git"
+    "url": "https://github.com/eperedo/hapi-axios.git"
   },
   "bugs": {
     "url": "https://github.com/eperedo/hapi-axios/issues"

@@ -2,9 +2,6 @@
 
 const debug = require('debug')('hapi-axios');
 const axios = require('axios');
-const pkg = require('./../package.json');
-
-debug('Version', pkg.version);
 
 function register(server, options) {
 	options.instances.forEach(httpOptions => {
@@ -18,7 +15,7 @@ function register(server, options) {
 const plugin = {
 	name: 'hapi-axios',
 	register,
-	version: pkg.version,
+	version: '1.0.0',
 };
 
 module.exports = plugin;
